@@ -65,7 +65,7 @@ export default function Index() {
         });
     
         try {
-            const response = await axios.post('http://127.0.0.1:8004/ocr', formData, {
+            const response = await axios.post('http://179.61.72.219:8004/ocr', formData, {
                 headers: {
                     "Content-Type": "multipart/form-data"
                 },
